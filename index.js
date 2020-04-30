@@ -15,19 +15,18 @@ let wrapAdjective = function(style= '*') {
 }
 
 let Calculator = { 
-   
-        add: (a,b) => {
-            return a + b
-        },
-        subtract: (a,b) => {
-            return a - b
-        },
-        multiply: (a,b) => {
-           return a * b
-        },
-        divide: (a, b) => {
-            return a / b
-        },
+   add: (a,b) => {
+        return a + b
+    },
+    subtract: (a,b) => {
+        return a - b
+    },
+    multiply: (a,b) => {
+        return a * b
+    },
+    divide: (a, b) => {
+        return a / b
+    },
 }
 
 function actionApplyer(start, finish) {
